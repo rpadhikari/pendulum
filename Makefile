@@ -1,7 +1,7 @@
 FC=gcc -c
 LD=gcc
 SRC=fx.c simp.c period.c main.c
-OBJ=fx.o simp.o period.c main.o
+OBJ=fx.o simp.o period.o main.o
 all:	simp run plot
 simp:
 	$(FC) $(SRC)
