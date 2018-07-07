@@ -3,11 +3,12 @@
  *  Created on: May 25, 2017
  *      Author: Rajendra P. Adhikari
  */
-
+//pendulum
 #include<stdio.h>
 #include<math.h>
 FILE *ofp;
 double period(double);
+
 static const double pi=3.14159265359;
 double sqrt(double);
 int main(){
